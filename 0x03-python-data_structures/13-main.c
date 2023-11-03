@@ -31,4 +31,5 @@ int main(void)
 
     free_listint(head);
 
-    return (0
+    return (0);
+}
