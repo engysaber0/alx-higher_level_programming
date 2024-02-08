@@ -2,10 +2,12 @@
 
 """
 Create class Rectangle that defines a rectangle by
-private instance attribute: width:, and
-private instance attribute: height:
+private instance attribute: `width:`, and `height:`
 Methods getter and Setter properties for the width and height
 And raising errors if certain conditionas are not met.
+Public instance method of area that returns the area of the rectangle.
+Public instance method of perimeter that returns the perimeter:
+if width or height is 0, perimeter is 0.
 """
 
 
@@ -19,8 +21,8 @@ class Rectangle:
     """
     def __init__(self, width=0, height=0):
         # initialize private attributes
-        self.height = height
-        self.width = width
+        self.__width = width
+        self.__height = height
 
     @property
     def width(self):
@@ -42,7 +44,7 @@ class Rectangle:
 
     @property
     def height(self):
-        # property to retreive height
+        # property to retrive height
         return self.__height
 
     @height.setter  # setter method for height
@@ -57,3 +59,19 @@ class Rectangle:
 
         # update private instance attribute
         self.__height = value
+
+    def area(self):
+        """
+        Calculate the area of rectangle
+        based on valid widths and heights provided.
+        """
+        return (self.__width * self.__height)
+
+    def perimeter(self):
+        """
+        Calculate the perimeter of rectangle
+        based on valid widths and heights given.
+        """
+        if self.__width == 0 or self.__height == 0:
+            return 0
+        return 2 * (self.__width + self.__height)
