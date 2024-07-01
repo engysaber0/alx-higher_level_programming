@@ -7,6 +7,8 @@ Weight: 1
 
 
 ###########################################################################################
+
+
 Resources
 Read or watch:
 
@@ -46,6 +48,8 @@ Modern JS
 
 
 ###########################################################################################
+
+
 Learning Objectives
 
 
@@ -55,6 +59,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 
 ###########################################################################################
+
+
 General
 
 
@@ -84,6 +90,8 @@ How to inherit an object from another
 
 
 ###########################################################################################
+
+
 Requirements
 
 
@@ -118,6 +126,8 @@ You are not allowed to use var
 
 
 ###########################################################################################
+
+
 More Info
 
 
@@ -131,7 +141,10 @@ $ sudo apt-get install -y nodejs
 
 Install semi-standard
 
+
 ###########################################################################################
+
+
 Documentation
 
 $ sudo npm install semistandard --global
