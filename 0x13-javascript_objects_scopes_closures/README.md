@@ -1,10 +1,19 @@
 0x13. JavaScript - Objects, Scopes and Closures
+
+
+
 By Guillaume
 Weight: 1
 Resources
 Read or watch:
 
+
+
+
 JavaScript object basics
+
+
+
 Object-oriented JavaScript (read all examples!)
 Class - ES6
 super - ES6
@@ -17,7 +26,14 @@ Modern JS
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
+
+
+
+
 General
+
+
+
 Why JavaScript programming is amazing
 How to create an object in JavaScript
 What this means
@@ -37,7 +53,12 @@ Your code should be semistandard compliant. Rules of Standard + semicolons on to
 All your files must be executable
 The length of your files will be tested using wc
 You are not allowed to use var
+
+
+
 More Info
+
+
 Install Node 14
 $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 $ sudo apt-get install -y nodejs
